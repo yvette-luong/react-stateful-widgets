@@ -23,7 +23,7 @@ export default function Squares() {
   // Use the state hook twice, as we need two slices of state: 'squares' and
   // 'activeSquare'. One holds the _array_ of square ids, and the other keeps track
   // of the currently active square (if any).
-
+// const [activeSquares, setActiveSquare] 
   const isActive = id => {
     // This is not a click handler but a helper, used inside the JSX, (See below)
     // and should return a class name of active if the id passed
